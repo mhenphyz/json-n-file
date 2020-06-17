@@ -13,7 +13,7 @@ j = JSN
 
 # definição do caminho do arquivo
 # caso não seja passado nenhum arquivo, será gerado uma exceção do tipo FilePathNotDefined
-j.set_file('config.json')
+j._set_file('config.json')
 
 # faz a leitura do json no arquivo
 
