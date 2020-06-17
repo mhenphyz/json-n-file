@@ -1,5 +1,5 @@
 import json
-from jsonFileExceptions import FilePathNotDefined
+from .jsonFileExceptions import FilePathNotDefined
 
 
 class JSN():
