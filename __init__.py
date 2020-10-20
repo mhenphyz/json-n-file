@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 from .jsonFileExceptions import FilePathNotDefined
 
 
@@ -36,8 +37,8 @@ class JSN():
         cls.json_content = json.load(cls.file_content)
 
     @classmethod
-    def _set_file(cls, file_path):
-        cls.file_path = file_path
+    def set_file(cls, file_path):
+        cls.file_path = Path(file_path)
 
     @classmethod
     def read(cls):
